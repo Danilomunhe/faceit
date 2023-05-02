@@ -1,0 +1,84 @@
+<!-- 
+ *
+ * Desenvolvido por Witbiz Digital
+ *
+ -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+    xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+
+<head>
+    <title>FaceIt Vegan :: Makeup</title>
+    <vtex:metaTags />
+    <vtex:template id="commonStyles-faceit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+</head>
+
+<body id="category-page">
+    <!--  SubTemplate: Header -->
+    <vtex:template id="faceit-header" />
+    <!-- /SubTemplate: Header -->
+
+    <main class="page faceit">
+
+        <div id="busca-vazia-extra-top"></div>
+
+        <section id="content" class="container">
+            <br />
+            <div id="category-extra-middle"></div>
+
+            <div class="row">
+
+                <aside class="col-xs-3 hidden-xs hidden-sm sidebar">
+                    <div id="departament-navegador">
+                        <!--  Controle: navegador de departamento -->
+                        <vtex.cmc:searchNavigator />
+                        <!-- /Controle: navegador de departamento -->
+                    </div><!-- #departament-navegador -->
+                </aside><!-- .sidebar -->
+
+                <article id="main-content" class="col-xs-12 col-md-9">
+
+                    <div class="title-category">
+                        <!--  Controle: Titulo -->
+                        <vtex.cmc:searchTitle />
+                        <!-- /Controle: Titulo -->
+                    </div><!-- .title-category -->
+
+                    <div id="departament-banner">
+                        <!--  placeholder -->
+                        <vtex:contentPlaceHolder id="Banner-Principal" />
+                        <!-- /placeholder -->
+                    </div><!-- #departament-banner -->
+
+                    <div id="collections" class="page-category">
+                        <div class="showcase-default">
+                            <!--  Controle: Resultado da busca / Lista de produtos -->
+                            <vtex.cmc:searchResult layout="1daabf0d-5f18-47a2-8b3f-709dc17dc522" itemCount="12"
+                                columnCount="3" />
+                            <!--  /Controle: Resultado da busca / Lista de produtos -->
+                        </div><!-- .collection-wrap -->
+                    </div><!-- #collections -->
+
+                </article><!-- #main-content -->
+
+            </div><!-- .row -->
+
+        </section><!-- #content -->
+
+        <div id="category-extra-bottom"></div>
+
+        <!--  SubTemplate: Footer -->
+        <vtex:template id="faceit-footer" />
+        <!-- /SubTemplate: Footer -->
+    </main>
+    <!-- .container-fluid -->
+
+</body>
+
+<vtex:template id="commonScripts-faceit" />
+
+</html>

@@ -1,0 +1,78 @@
+<!-- 
+ *
+ * Desenvolvido por Witbiz Digital
+ *
+ -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+    xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+
+<head>
+    <title>FaceIt Vegan :: Makeup</title>
+    <vtex:metaTags />
+    <vtex:template id="commonStyles-faceit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+</head>
+
+<body id="busca-vazia-page">
+    <!--  SubTemplate: Header -->
+    <vtex:template id="faceit-header" />
+    <!-- /SubTemplate: Header -->
+
+    <main class="page faceit">
+        <br />
+        <div id="busca-vazia-extra-top"></div>
+
+        <section id="busca-vazia-content" class="container">
+
+            <div id="busca-vazia-extra-middle"></div>
+
+            <div class="row">
+
+                <article id="main-content" class="col-xs-12">
+
+                    <div class="title-category">
+                        <!--  Controle: Titulo -->
+                        <a href="#" class="pull-right" onclick="window.history.back();"><i
+                                class="fa fa-chevron-left"></i> Voltar</a>
+                        <h2>Ops, não encontramos nada em sua busca</h2>
+                        <br /><br /><br />
+                        <center>
+                            <vtex.cmc:fullTextSearchBox />
+                        </center>
+                        <!-- /Controle: Titulo -->
+                    </div><!-- .title-category -->
+
+                    <div id="collections">
+
+                        <div class="showcase-default showcase-owl">
+                            <vtex:contentPlaceHolder id="Destaques" />
+                        </div>
+
+                        <div class="showcase-default showcase-owl">
+                            <vtex:contentPlaceHolder id="Lançamentos" />
+                        </div>
+
+                    </div><!-- #collections -->
+
+                </article><!-- #main-content -->
+
+            </div><!-- .row -->
+
+        </section><!-- #content -->
+
+        <div id="busca-vazia-extra-bottom"></div>
+
+        <!--  SubTemplate: Footer -->
+        <vtex:template id="faceit-footer" />
+        <!-- /SubTemplate: Footer -->
+    </main>
+    <!-- .container-fluid -->
+
+</body>
+<vtex:template id="commonScripts-faceit" />
+
+</html>

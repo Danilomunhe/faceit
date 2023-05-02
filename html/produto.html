@@ -1,0 +1,157 @@
+<!-- 
+ *
+ * Desenvolvido por Witbiz Digital
+ *
+ -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+    xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+
+<head>
+    <title>FaceIt Vegan | Produto</title>
+    <vtex:metaTags />
+    <vtex:template id="commonStyles-faceit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+</head>
+
+<body id="product-page">
+
+    <!--  SubTemplate: Header -->
+    <vtex:template id="faceit-header" />
+    <!-- /SubTemplate: Header -->
+
+    <main class="page faceit">
+        <section id="product-content" class="container">
+
+            <div id="product-extra-middle"></div>
+
+            <div class="row product-details">
+                <div class="product-name-mobile col-xs-12 visible-xs">
+                    <!--<div class="product-name">-->
+                    <!--    <vtex.cmc:productName />-->
+                    <!--</div>-->
+                    <div class="row">
+                        <!--<div class="codigo-produto col-xs-12">-->
+                        <!--    <span>Cód:</span>-->
+                        <!--    <vtex.cmc:skuReference />-->
+                        <!--</div>-->
+                    </div>
+                </div>
+
+                <div class="product-image col-xs-12 col-sm-6 col-lg-6 text-center">
+                    <!--  Component: Product Images -->
+                    <vtex.cmc:ProductImage zoom="on" />
+                    <!-- .product-image -->
+                </div>
+
+                <div id="produtoDiv-direita" class="product-info box-produto-info col-xs-12 col-sm-6 col-lg-6">
+                    <div class="product-name-mobile col-xs-12 visible-xs">
+                        <div class="product-name">
+                            <vtex.cmc:productName />
+                        </div>
+                        <div class="row">
+                            <vtex.cmc:productDescriptionShort />
+                        </div>
+                    </div>
+                    <div class="product-name hidden-xs">
+
+                        <h1>
+                            <vtex.cmc:productName />
+                        </h1>
+                        <!--<div class="codigo-produto">-->
+                        <!--    <span>Cód:</span>-->
+                        <!--    <vtex.cmc:skuReference />-->
+                        <!--</div>-->
+
+                        <hr />
+
+                        <div>
+                            <vtex.cmc:productDescriptionShort />
+                        </div>
+                    </div>
+
+                    <div class="price-box">
+                        <!--  Component: Sellers -->
+                        <vtex.cmc:SellerOptions />
+
+                        <!--  Component: Price -->
+                        <vtex.cmc:skuPrice />
+
+                        <!--  Component: Sales channels -->
+                        <vtex.cmc:SalesChannelDropList />
+
+                        <!--  Component: Addicional services -->
+                        <vtex.cmc:stockKeepingUnitService />
+
+                        <!--  Component: Payment methods -->
+                        <!-- <vtex.cmc:OtherPaymentMethod/> -->
+                    </div><!-- .price-box -->
+
+                    <div class="buy-button-box hidden-xs btquantidade-btcomprar">
+                        <vtex.cmc:BuyButton />
+                    </div>
+
+                    <div id="product-extra-details-1"></div>
+                </div><!-- .product-info -->
+
+            </div><!-- .product-details -->
+        </section>
+        <section>
+            <div class="product-description-box">
+                <div id="description">
+                    <!--  Component: Description -->
+                    <vtex.cmc:ProductDescription />
+                </div><!-- .description -->
+            </div>
+
+            <div id="product-extra-details-3"></div>
+
+            <div class="container product-description">
+                <div class="d-flex m-auto produtos-relacionados-title">Conheça também</div>
+                <div class="d-flex m-auto produtos-relacionados-title">Produtos relacionados para uma pele saudável
+                </div>
+                <vtex:contentPlaceHolder id="similares" />
+            </div>
+
+            <div id="product-extra-details-3"></div>
+
+        </section>
+
+        <div id="product-extra-bottom"></div>
+
+        <!--  SubTemplate: Footer -->
+        <vtex:template id="faceit-footer" />
+        <!-- /SubTemplate: Footer -->
+
+        <div id="comprar-flutuante" style="display: none;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-1 visible-lg visible-md">
+                        <img src="/arquivos/sem-foto.gif" alt="" id="foto-comprar-flutuante" class="img-responsive" />
+                    </div>
+                    <div class="col-nome col-xs-3 hidden-xs">
+                        <vtex.cmc:productName />
+                    </div>
+                    <div class="col-precos col-xs-4 col-lg-5 hidden-xs">
+                        <vtex.cmc:skuPrice />
+                    </div>
+                    <div class="col-comprar col-xs-12 col-sm-5 col-md-4 col-lg-3">
+                        <div class="buy-button-box">
+                            <vtex.cmc:BuyButton />
+                        </div><!-- .buy-button-box -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- .container-fluid -->
+
+</body>
+<vtex:template id="commonScripts-faceit" />
+
+</html>

@@ -1,0 +1,66 @@
+<!-- 
+ *
+ * Desenvolvido por Witbiz Digital
+ *
+ -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+    xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="pt-br">
+
+<head>
+    <title>FaceIt - Pedidos</title>
+    <vtex:metaTags />
+    <vtex:template id="commonStyles-faceit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+</head>
+
+<body id="account-page">
+
+    <!--  SubTemplate: Header -->
+    <vtex:template id="faceit-header" />
+    <!-- /SubTemplate: Header -->
+
+    <div id="account-extra-top"></div>
+
+    <section id="account-content" class="container">
+
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12">
+                <vtex.cmc:accountUserProfile />
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <vtex.cmc:accountAddress />
+            </div>
+
+        </div>
+
+    </section><!-- #content -->
+
+    <div id="account-extra-bottom"></div>
+
+    <!--  SubTemplate: Footer -->
+    <vtex:template id="faceit-footer" />
+    <!-- /SubTemplate: Footer -->
+
+
+</body>
+<vtex:template id="commonScripts-faceit" />
+<script type="text/javascript">
+    $(document).ready(function () {
+        var hash = $(location).attr('hash');
+        var $links = $('a[data-toggle="modal"]');
+
+        $.each($links, function () {
+            var $this = $(this);
+            if ($this.attr('href') === hash) {
+                $this.click();
+            }
+        });
+    })
+</script>
+
+</html>

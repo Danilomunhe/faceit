@@ -1,0 +1,106 @@
+<!-- 
+ *
+ * Desenvolvido Witbiz.Digital
+ *
+ -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+    xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="pt-br">
+
+<head>
+    <title>FaceIt Vegan :: Makeup</title>
+    <vtex:metaTags />
+    <vtex:template id="commonStyles-faceit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="google-site-verification" content="0WqJswSZ8vVYZNCBWvwYYTLUHKGen6YCX4-cu2Ni6DE" />
+    <meta name="facebook-domain-verification" content="jvz0yd0i1dhbw65zfz21dk4hye9vnj" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+</head>
+
+<body id="home-page">
+    <!--  SubTemplate: Header -->
+    <vtex:template id="faceit-header" />
+    <!-- /SubTemplate: Header -->
+
+    <main class="page faceit">
+
+        <!-- .fullbanner -->
+        <div class="fullbanner fullbanner-desk">
+
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="video-container">
+                        <!--<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/693_L_3623g?controls=0" title="YouTube video player" frameborder="0" -->
+                        <!--allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="0"></iframe>-->
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/NOBacPVlUiY?controls=0"
+                            loop="1" title="FaceItVegan - Institucional" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen="0"></iframe>
+                    </div>
+                </div>
+                <div class="fullbaner-text col-12 col-md-4">
+                    <vtex:contentPlaceHolder id="fullbaner-text" />
+                </div>
+            </div>
+
+        </div>
+        <div class="fullbanner fullbanner-mobile">
+            <div class="video-container">
+                <!--<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/693_L_3623g?controls=0" title="YouTube video player" frameborder="0" -->
+                <!--allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="0"></iframe>-->
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/NOBacPVlUiY?controls=0" loop="1"
+                    title="FaceItVegan - Institucional" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen="0"></iframe>
+            </div>
+            <!--<vtex:contentPlaceHolder id="fullbanner-mobile" />-->
+        </div>
+        <div class="fullbaner-text col-12 col-md-4 text-mobile">
+            <vtex:contentPlaceHolder id="fullbaner-text" />
+        </div>
+
+        <!-- .fullbanner -->
+        <section class="section-info p-5">
+            <div class="container-fluid">
+                <img src="/arquivos/faceit-icon.png" />
+                <p>O futuro é verde! Nossa missão é movimentar um futuro onde toda beleza é limpa, preservando os
+                    princípios
+                    da sustentabilidade e o respeito ao meio ambiente, com um desenvolvimento sustentável de cosméticos
+                    naturais. </p>
+                <a href="/institucional/quem-somos">Conheça mais</a>
+            </div>
+        </section>
+
+        <div class="">
+            <vtex:contentPlaceHolder id="teste" />
+        </div>
+
+        <!--Banners-->
+
+
+        <!--sobre o produto-->
+        <section class="section-ingredientes-banner fullbanner">
+            <vtex.cmc:sobreProduto />
+            <vtex:contentPlaceHolder id="bannershome-slide" />
+        </section>
+
+
+        <!--Informações produto-->
+        <section class="section-ingredientes p-5">
+            <vtex.cmc:infoFaceit />
+        </section>
+        <!--Informações produto-->
+
+        <!--  SubTemplate: Footer -->
+        <vtex:template id="faceit-footer" />
+        <!-- /SubTemplate: Footer -->
+    </main>
+    <!-- .container-fluid -->
+</body>
+<vtex:template id="commonScripts-faceit" />
+
+</html>

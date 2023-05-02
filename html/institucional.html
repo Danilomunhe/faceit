@@ -1,0 +1,73 @@
+<!-- 
+ *
+ * Desenvolvido por Witbiz Digital
+ * Bootstrap v.4.1.3
+ *
+ -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+    xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="pt-br">
+
+<head>
+    <title>FaceIt Vegan : Institucional : Quem Somos</title>
+    <vtex:metaTags />
+    <vtex:template id="commonStyles-faceit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="0WqJswSZ8vVYZNCBWvwYYTLUHKGen6YCX4-cu2Ni6DE" />
+    <meta name="facebook-domain-verification" content="jvz0yd0i1dhbw65zfz21dk4hye9vnj" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <style>
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body id="institucional-page">
+    <!--  SubTemplate: Header -->
+    <vtex:template id="faceit-header" />
+    <!-- /SubTemplate: Header -->
+
+    <main class="page faceit">
+
+        <section id="institucional-content" class="">
+            <div class="video-container">
+                <!--    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/693_L_3623g?controls=0" title="YouTube video player" frameborder="0" -->
+                <!--    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="0"></iframe>-->
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/NOBacPVlUiY?controls=0"
+                    title="FaceItVegan - Institucional" frameborder="0" controls="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen="0"></iframe>
+            </div>
+            <div class="fullbanner esconder">
+                <vtex:contentPlaceHolder id="fullbanner-institucional" />
+            </div>
+            <!-- .fullbanner -->
+
+            <div class="conteudo-institucional">
+                <vtex:contentPlaceHolder id="faceit-quemsomos-conteudo" />
+            </div>
+        </section>
+        <!-- #content -->
+
+        <!--  SubTemplate: Footer -->
+        <vtex:template id="faceit-footer" />
+        <!-- /SubTemplate: Footer -->
+    </main>
+    <!-- .container-fluid -->
+
+</body>
+<vtex:template id="commonScripts-faceit" />
+
+</html>

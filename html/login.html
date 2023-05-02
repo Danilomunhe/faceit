@@ -1,0 +1,130 @@
+<!-- 
+ *
+ * Desenvolvido por Integrando.se
+ * hello@integrando.se
+ * 
+ * Bootstrap v.3
+ *
+ -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+    xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="en-us">
+
+<head>
+    <title>Faceit</title>
+    <vtex:metaTags />
+    <vtex:template id="commonStyles-faceit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body id="login-page">
+
+    <div class="page">
+
+        <!--  SubTemplate: Header -->
+        <vtex:template id="faceit-header" />
+        <!-- /SubTemplate: Header -->
+
+        <div id="login-extra-top"></div>
+
+        <section id="login-content" class="container">
+            <vtex.cmc:userLogin />
+        </section><!-- #content -->
+
+        <div id="login-extra-bottom"></div>
+
+
+
+    </div><!-- .container-fluid -->
+    <!--  SubTemplate: Footer -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="row-menus row">
+
+                <div class="col-inst-info col">
+                    <vtex.cmc:newsletterfaceit />
+
+                    <div class="col-logo col-3">
+                        <img src="../arquivos/faceit-footer.png" alt="logo frederika" />
+                    </div><!-- .col-institucional -->
+                </div>
+
+                <div class="col-inst-menu col-12">
+                    <div class="row border-menu">
+                        <div class="col-institucional col">
+                            <b>Institucional</b>
+                            <ul>
+                                <li><a href="#">Sobre nós</a></li>
+                            </ul>
+                        </div><!-- .col-institucional -->
+
+                        <div class="col-atendimento col">
+                            <b>Atendimento</b>
+                            <ul>
+                                <li><a href="#">Fale conosco</a></li>
+
+                            </ul>
+                        </div><!-- .col-atendimento -->
+
+                        <div class="col-minhaconta col">
+                            <b>Minha Conta</b>
+                            <ul>
+                                <li><a href="#">Meus pedidos</a></li>
+
+                            </ul>
+                        </div><!-- .col-minhaconta -->
+
+                        <div class="col-trocas col-6 col-sm ">
+                            <b>Trocas e devoluções</b>
+                            <ul>
+                                <li><a href="#">Frete e entrega</a></li>
+
+                            </ul>
+                        </div><!-- .col-trocas -->
+
+                        <div class="col-atendimento col-6 col-sm-3">
+                            <b>Horário de Atendimento</b>
+                            <p>Segunda a Sexta, 08h às 17h</p>
+                        </div><!-- .col-trocas -->
+
+                    </div>
+                    <div class="col-inst-direitos col-12">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 logo-footer">
+
+                                <img src="../arquivos/it-footer.png" />
+                                <div class="text-footer">
+                                    <p>Todos os direitos reservados.</p>
+                                    <p>Face It é uma marca do Grupo Farmamake.</p>
+                                </div>
+
+
+                            </div>
+                            <div class="col-12 col-sm-6 politica-termos">
+
+                                <a href="">Politica de Privacidade</a>
+
+                                <a href="">Termos e Condições</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- .col-inst-duvidas -->
+
+
+            </div><!-- .row-menus -->
+
+
+        </div><!-- .container -->
+
+    </footer><!-- .footer -->
+    <!-- /SubTemplate: Footer -->
+
+</body>
+<vtex:template id="commonScripts-faceit" />
+
+</html>
