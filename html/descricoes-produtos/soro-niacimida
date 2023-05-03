@@ -1,0 +1,114 @@
+<div class="container">
+    <div class="page-header">
+        <h1>SORO NATURAL DE NIACINAMIDA</h1>
+    </div>
+    <p class="text-justify description">Soro Natural 10% de Niacinamida é leve e poderoso. Fórmula com mais de 88% de
+        ingredientes naturais. Esta vitamina B3 possui ação seborreguladora, auxilia no tratamento de acne e minimiza a
+        vermelhidão e hiperpigmentação cutânea. Potente ação iluminadora, uniformiza o tom da pele, previne linhas finas
+        de expressão e promove a elasticidade. Adequado para todos os tipos de pele. Contém corante natural de hibisco,
+        rico em flavonoides.</p>
+    <div class="list">
+        <ul class="list-group list-horizontal">
+            <li class="list-group-item"><i class="bi bi-brightness-high-fill icon-item"></i><span
+                    class="text-item-span">Diurno</span></li>
+            <li class="list-group-item"><i class="bi bi-moon-fill icon-item"></i><span
+                    class="text-item-span">Noturno</span></li>
+            <li class="list-group-item"><i class="bi bi-circle icon-item"></i><span
+                    class="text-item-span">Hidratação</span></li>
+            <li class="list-group-item"><i class="bi bi-circle-fill icon-item"></i><span
+                    class="text-item-span">Tratamento</span></li>
+            <li class="list-group-item"><i class="bi bi-circle icon-item"></i><span
+                    class="text-item-span">Limpeza</span></li>
+        </ul>
+    </div>
+    <div class="acordeon-container">
+        <div class="acordeon-item" data-toggle="collapse" data-target="#demo">
+            <div class="textos"><span class="acordeon-title">Como Usar?</span><span class="acordeon-title">+</span>
+            </div>
+            <div id="demo" class="collapse">
+                <p class="text-acordeon">Após a limpeza e hidratação com o Soro Natural de Ácido Hialurônico, aplique o
+                    Soro Natural de Niacinamida suavemente no rosto e pescoço. Pode ser usado em sua rotina de cuidados
+                    com a pele diurna e noturna.<br></p><i class="bi bi-brightness-high-fill icone"></i><span
+                    class="icon-acordeon-item">Diurno</span><i class="bi bi-moon-fill icone space"></i><span
+                    class="icon-acordeon-item">Noturno</span>
+            </div>
+        </div>
+        <div class="acordeon-item" data-toggle="collapse" data-target="#demo2">
+            <div class="textos"><span class="acordeon-title">Dica da face it</span><span class="acordeon-title">+</span>
+            </div>
+            <div id="demo2" class="collapse">
+                <p class="text-acordeon">Se você tem a pele mais sensível, use Niacinamida antes do Creme de Retinol
+                    para ajudar a diminuir a irritação.<br>Não recomendado utilizar com Vitamina C ou ácidos
+                    esfoliantes. Antes de utilizar, realizar o teste no antebraço 24h antes.<br><br>Precaução: USO
+                    EXTERNO. Guarde o produto sempre bem fechado, longe da luz e do calor excessivo. Para uso adulto,
+                    não usar em crianças. Não faça uso dele se sua pele estiver irritada ou lesionada. Se sua pele ficar
+                    sensibilizada, descontinue o uso. Lembre-se de deixá-lo fora do alcance de crianças e animais. Este
+                    produto foi formulado de maneira a minimizar possível surgimento de alergia. </p>
+            </div>
+        </div>
+        <div class="acordeon-item" data-toggle="collapse" data-target="#demo3">
+            <div class="textos"><span class="acordeon-title">Ingredientes</span><span class="acordeon-title">+</span>
+            </div>
+            <div id="demo3" class="collapse">
+                <ul class="item-ativos">
+                    <li class="item-ativos-container">
+                        <div class="item-ativos-icon"><i class="bi bi-circle"></i></div>
+                        <div class="item-ativos-conteudo">
+                            <h3>10% de Niacinamida</h3><span class="text-acordeon">8 formas de Ácido Hialurônico Sodium
+                                Hyaluronate - Hidratação superficial. Sodium Hyaluronate Crosspolymer - “Véu” de
+                                hidratação mantendo a umidade da pele. Hypropyltrimonium Hyaluronate - Hidratação
+                                prolongada. Potassium Hyaluronate - Fluxo de hidratação. Sodium Acetylated Hyaluronate -
+                                Adesão da hidratação. Hydrolyzed Hyaluronic Acid e Hydrolyzed Sodium Hyaluronate -
+                                Hidratação interna. Hyaluronic Acid - Hidratação fundamental profunda. Molécula
+                                facilmente absorvível pela pele.</span>
+                        </div>
+                    </li>
+                    <li class="item-ativos-container">
+                        <div class="item-ativos-icon"><i class="bi bi-circle"></i></div>
+                        <div class="item-ativos-conteudo">
+                            <h3>Peptídeo Anti-Fadiga</h3><span class="text-acordeon">Auxilia a pele a manter a sua
+                                firmeza natural.</span>
+                        </div>
+                    </li>
+                    <li class="item-ativos-container">
+                        <div class="item-ativos-icon"><i class="bi bi-circle"></i></div>
+                        <div class="item-ativos-conteudo">
+                            <h3>Corante natural de Hibisco</h3><span class="text-acordeon">rico em flavonoides. Ação
+                                tonificante.</span>
+                        </div>
+                    </li>
+                    <li class="item-ativos-container">
+                        <div class="item-ativos-icon"><i class="bi bi-circle"></i></div>
+                        <div class="item-ativos-conteudo">
+                            <h3>Outros Ingredientes</h3><span class="text-acordeon">Aqua, Propanediol, Niacinamide,
+                                1,2-Hexanediol, Ammonium Acryloyldimethyltaurate/VP Copolymer, Caprylhydroxamic Acid,
+                                Hibiscus Sabdariffa Flower Extract, Maltodextrin, Sodium Phosphate, Caprylyl Glycol,
+                                Nonapeptide-1, Citric Acid.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="fundo">
+    <div class="container">
+        <div class="linha"></div>
+        <div class="page-header horizontal"><i class="bi bi-check-circle icon-title"></i>
+            <h2 class="horizontal-text">Testado Clinicamente</h2>
+        </div>
+        <div>
+            <p class="text-justify description">100% dos participantes concordaram que o produto:</p>
+        </div>
+        <div class="lista-de-aprovacao">
+            <ul class="lista-aprovacao-produto">
+                <li>Clareou a pele*;</li>
+                <li>Melhorou a hidratação e firmeza*;</li>
+                <li>Uniformizou o tom*;</li>
+                <li>Controlou a oleosidade*;</li>
+                <li>Reduziu a aparência de poros dilatados*;</li>
+            </ul>
+        </div>
+        <div class="linha">*Comprovado por testes clínicos.</div>
+    </div>
+</div>
